@@ -1,0 +1,192 @@
+index.html
+<!DOCTYPE html><html><body>
+
+    
+
+    <center>
+
+    <head>
+
+        <title>Linkedin</title>
+
+        <link rel="stylesheet" href="C:\Users\Lekha srinivasan\OneDrive\Documents\Project\style.css">
+
+</head><link rel="icon" href="C:\Users\Lekha srinivasan\OneDrive\Documents\Project\LI-Logo.png">
+
+<head><h1>LinkedIn Growth Hub</h1></head><p>Learn, Connect, Grow, and Unlock Career Opportunities</p><video autoplay muted loop controls width="1000"><source src="Pj1 (1).mp4" type="video/mp4">
+
+</video></center>
+
+
+
+    <h3><em>Table of content:</em></h3>
+
+    <ol>
+
+        <li><a href="#Introduction to LinkedIn:">Introduction to LinkedIn</a></li>
+
+        <li><a href="#To Create a profile:">Create a profile</a></li>
+
+        <li><a href="#Common Mistakes to Avoid:">Common Mistakes to Avoid</a></li>
+
+        <li><a href="#Finding Internships and Jobs:">Finding Internships and Jobs</a></li>
+
+        <li><a href="#Contact & Feedback">Contact & Feedback</a></li>
+
+    </ol>
+
+    <h3><em><a id="Introduction to LinkedIn:">Introduction to LinkedIn:</a></em></h3>
+
+    <p>LinkedIn is the world's largest professional networking platform, designed to help individuals build professional connections, showcase their skills, and explore career opportunities. 
+
+        It enables students, job seekers, and professionals to create a digital profile that highlights their education, achievements, projects, certifications, and work experience. By using LinkedIn, students can connect with industry experts, discover internships and job openings, learn from professionals, and develop a strong personal brand. Today, LinkedIn plays an important role in career growth and professional development across the globe.</p>
+
+    <h3><em><a id="To Create a profile:">To Create a profile:</a></em></h3>
+
+    <ul>
+
+        <strong>Step 1: Sign Up</strong>
+
+            <li>Create a LinkedIn account using your email address and set a secure password.</li>
+
+        <strong>Step 2: Add a Profile Photo</strong>
+
+        <li>Upload a clear and professional profile picture. A good photo helps create a positive first impression.</li>
+
+        <strong>Step 3: Write a Headline</strong>
+
+        <li>Add a short headline that describes who you are</li>
+
+        <strong>Create an About Section</strong>
+
+        <li>Write a brief introduction about yourself, your interests, skills, and career goals.</li>
+
+        <strong>Step 5: Add Education</strong>
+
+        <li>Include your college name, degree, field of study, and expected graduation year.</li>
+
+        <strong>Step 6: Add Skills</strong>
+
+        <li>List relevant skills such as HTML, C Programming, Problem Solving, Communication, and Teamwork.</li>
+
+        <strong>Step 7: Add Certifications</strong>
+
+        <li>Include certificates from courses, workshops, and training programs you have completed.</li>
+
+        <strong>Step 8: Showcase Projects</strong>
+
+        <li>Add academic, personal, or technical projects to demonstrate your knowledge and practical experience.</li>
+
+        <strong>Step 9: Build Your Network</strong>
+
+        <li>Connect with classmates, seniors, professors, and professionals in your field of interest.</li>
+
+        <strong>Step 10: Keep Your Profile Updated</strong>
+
+        <li>Regularly update your profile with new skills, certifications, achievements, and projects to maintain a strong professional presence.</li>
+
+    </ul>
+
+    <h3><em><a id="Common Mistakes to Avoid:">Common Mistakes to Avoid:</a></em></h3>
+
+<ul>
+
+    <li>Using an unprofessional profile picture.</li>
+
+    <li>Leaving your profile incomplete.</li>
+
+    <li>Writing a vague or generic headline.</li>
+
+    <li>Ignoring spelling and grammar mistakes.</li>
+
+    <li>Not customizing connection requests.</li>
+
+    <li>Posting inappropriate or irrelevant content.</li>
+
+    <li>Failing to update skills, education, and experience.</li>
+
+    <li>Having too few connections and not networking actively.</li>
+
+    <li>Not adding a professional summary (About section).</li>
+
+    <li>Applying for jobs without tailoring your profile.</li>
+
+</ul>
+
+<h3><em><a id="Finding Internships and Jobs:">Finding Internships and Jobs:</a></em></h3>
+
+<p>
+
+    LinkedIn helps users find internships and jobs by providing job listings,
+
+    company information, and networking opportunities. Users can search for
+
+    relevant positions, set job alerts, and apply directly through the platform.
+
+</p>
+
+<h3><em><a id="Contact & Feedback">Contact & Feedback</a></em></h3><p>For more information, visit LinkedIn's official website.
+
+</p>
+
+
+
+<p>
+
+    LinkedIn: 
+
+    <a href="https://www.linkedin.com" target="_blank">
+
+        www.linkedin.com
+
+    </a>
+
+</p>
+
+<p>We value your feedback. Write your thoughts below:</p>
+
+
+
+<textarea id="feedback" rows="6" cols="50" placeholder="Write your feedback here..."></textarea>
+
+<br><br>
+
+
+
+<button onclick="submitFeedback()">Submit Feedback</button>
+
+
+
+<p id="message"></p>
+
+</section><script>
+  
+function submitFeedback() {
+  
+    let feedback = document.getElementById("feedback").value;
+  
+
+  
+    if (feedback == "") {
+  
+        document.getElementById("message").innerHTML = 
+  
+        "Please enter your feedback!";
+  
+    } else {
+  
+        document.getElementById("message").innerHTML = 
+  
+        "Thank you for your feedback!";
+  
+        
+  
+        document.getElementById("feedback").value = "";
+  
+    }
+  
+}
+  
+</script></body>
+
+</html>
